@@ -1,0 +1,92 @@
+:root {
+
+  /* ✅ PRIMARY BRAND COLORS */
+  --color-primary: #8B5CF6;
+  --color-secondary: #6366F1;
+  --color-accent: #38BDF8;
+
+  /* ✅ DARK BACKGROUND SYSTEM */
+  --bg-primary: #050816;
+  --bg-navbar: #0B0F19;
+  --bg-card: #111827;
+
+  /* ✅ TEXT COLORS */
+  --text-primary: #FFFFFF;
+  --text-secondary: #9CA3AF;
+  --text-muted: rgba(255,255,255,0.65);
+
+  /* ✅ BORDER COLORS */
+  --border-light: rgba(255,255,255,0.10);
+  --border-medium: rgba(255,255,255,0.20);
+  --border-cta: rgba(255,255,255,0.30);
+
+  /* ✅ HERO HEADING GRADIENT */
+  --gradient-heading: linear-gradient(
+    90deg,
+    #93C5FD 0%,
+    #7DD3FC 40%,
+    #5EEAD4 100%
+  );
+
+  /* ✅ CTA BUTTON GRADIENT */
+  --gradient-cta: linear-gradient(
+    90deg,
+    #8B5CF6 0%,
+    #6366F1 40%,
+    #38BDF8 100%
+  );
+
+  /* GRADIENT COLORS */
+--heading-gradient-start: #93C5FD;
+--heading-gradient-mid: #7DD3FC;
+--heading-gradient-end: #5EEAD4;
+
+
+  /* ✅ HERO BACKGROUND GLOW */
+  --glow-purple: rgba(139, 92, 246, 0.25);
+  --glow-cyan: rgba(56, 189, 248, 0.25);
+
+  /* ✅ STAT VALUE COLOR */
+  --stat-value: #38BDF8;
+
+  /* ✅ SHADOW SYSTEM */
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.35);
+  --cta-glow: 0 0 25px rgba(56,189,248,0.50);
+
+  /* ✅ BORDER RADIUS */
+  --radius-xl: 12px;
+  --radius-2xl: 18px;
+  --radius-xs:6px;
+  
+
+  /* ✅ BLUR VALUES */
+  --blur-hero: 160px;
+
+  /* ✅ FONT FAMILY */
+  --font-primary: 'Poppins', sans-serif;
+
+  /* ✅ FONT SIZES */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+
+  /* ✅ HERO HEADING */
+  --text-hero: 64px;
+
+  /* ✅ FONT WEIGHTS */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 900;
+
+  /* ✅ TRANSITIONS */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-normal: 0.3s ease-in-out;
+
+}
