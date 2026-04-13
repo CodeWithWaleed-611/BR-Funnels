@@ -1,4 +1,5 @@
 import SectionWrapper from "../../components/ui/SectionWrapper";
+import { PortfolioImage } from "@/assets"; 
 
 const PortfolioShowcase = () => {
   return (
@@ -88,7 +89,7 @@ const PortfolioShowcase = () => {
             {/* PORTFOLIO IMAGE */}
             <div className="w-full h-full overflow-hidden">
               <img
-                src="/src/assets/images/portfolio/PortfolioImage.webp"
+                src={PortfolioImage}
                 alt="Portfolio"
                 className="w-full h-full object-cover"
               />
