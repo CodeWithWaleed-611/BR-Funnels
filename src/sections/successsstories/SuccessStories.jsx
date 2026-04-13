@@ -1,4 +1,5 @@
 import SectionWrapper from "../../components/ui/SectionWrapper";
+import {casestudy1, casestudy2, casestudy3} from "@/assets";
 
 const CaseStudyCard = ({ image, category, title, desc, industry }) => {
   return (
@@ -86,21 +87,21 @@ const SuccessStories = () => {
       title: "Revenue in 90 Days",
       desc: "Increased email revenue through segmented automation & personalized flows.",
       industry: "Fashion Retailer",
-      image: "/assets/images/success-stories/casestudy1.jpg",
+      image: casestudy1,
     },
     {
       category: "E‑Commerce",
       title: "Trial Conversions",
       desc: "Optimized onboarding sequences and nurture campaigns for B2B E‑Commerce.",
       industry: "Analytics Platform",
-      image: "/assets/images/success-stories/casestudy2.jpg",
+      image: casestudy2,
     },
     {
       category: "DTC",
       title: "Customer LTV",
       desc: "Built retention system with SMS integration and post‑purchase flows.",
       industry: "Wellness Brand",
-      image: "/assets/images/success-stories/casestudy3.jpg",
+      image: casestudy3,
     },
   ];
 

@@ -1,5 +1,6 @@
 import SectionWrapper from "../../components/ui/SectionWrapper";
 import { Check } from "lucide-react";
+import {largepic1, largepic2, largepic3, largepic4} from "@/assets";
 
 const MobileFirst = () => {
   const features = [
@@ -107,10 +108,10 @@ const MobileFirst = () => {
           <div className="lg:col-span-7">
             <div className="flex items-center justify-center gap-3 pb-3">
               {[
-                "/src/assets/images/mobile-first/largepic1.jpg",
-                "/src/assets/images/mobile-first/largepic2.jpg",
-                "/src/assets/images/mobile-first/largepic3.jpg",
-                "/src/assets/images/mobile-first/largepic4.jpg",
+                largepic1,
+                largepic2,
+                largepic3,
+                largepic4,
               ].map((img, i) => (
                 <div
                   key={i}
