@@ -86,21 +86,21 @@ const SuccessStories = () => {
       title: "Revenue in 90 Days",
       desc: "Increased email revenue through segmented automation & personalized flows.",
       industry: "Fashion Retailer",
-      image: "/src/assets/images/success-stories/casestudy1.jpg",
+      image: "/assets/images/success-stories/casestudy1.jpg",
     },
     {
       category: "E‑Commerce",
       title: "Trial Conversions",
       desc: "Optimized onboarding sequences and nurture campaigns for B2B E‑Commerce.",
       industry: "Analytics Platform",
-      image: "/src/assets/images/success-stories/casestudy2.jpg",
+      image: "/assets/images/success-stories/casestudy2.jpg",
     },
     {
       category: "DTC",
       title: "Customer LTV",
       desc: "Built retention system with SMS integration and post‑purchase flows.",
       industry: "Wellness Brand",
-      image: "/src/assets/images/success-stories/casestudy3.jpg",
+      image: "/assets/images/success-stories/casestudy3.jpg",
     },
   ];
 
