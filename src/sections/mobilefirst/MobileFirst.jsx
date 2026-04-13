@@ -107,10 +107,10 @@ const MobileFirst = () => {
           <div className="lg:col-span-7">
             <div className="flex items-center justify-center gap-3 pb-3">
               {[
-                "https://images.unsplash.com/photo-1557825835-70d97c4aa567",
-                "https://images.unsplash.com/photo-1556740749-887f6717d7e4",
-                "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
-                "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
+                "/src/assets/images/mobile-first/largepic1.jpg",
+                "/src/assets/images/mobile-first/largepic2.jpg",
+                "/src/assets/images/mobile-first/largepic3.jpg",
+                "/src/assets/images/mobile-first/largepic4.jpg",
               ].map((img, i) => (
                 <div
                   key={i}
@@ -120,8 +120,8 @@ const MobileFirst = () => {
                   <img
                     src={img}
                     alt="email-demo"
-                    className="w-full h-[420px] object-cover rounded-[8px] "
-                    style={{}}
+                    className="w-full h-full object-cover rounded-[8px] "
+                    
                   />
                 </div>
               ))}

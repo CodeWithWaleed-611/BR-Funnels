@@ -88,7 +88,7 @@ const PortfolioShowcase = () => {
             {/* PORTFOLIO IMAGE */}
             <div className="w-full h-full overflow-hidden">
               <img
-                src="/src/assets/images/PortfolioImage.webp"
+                src="/src/assets/images/portfolio/PortfolioImage.webp"
                 alt="Portfolio"
                 className="w-full h-full object-cover"
               />

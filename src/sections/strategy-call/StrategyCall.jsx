@@ -1,6 +1,8 @@
 import SectionWrapper from "../../components/ui/SectionWrapper";
 import { Clock, Video, Check, ArrowRight } from "lucide-react";
 import Button from "../../components/common/Button";
+import Calendar from "react-calendar";
+import { CiGlobe } from "react-icons/ci";
 
 const StrategyCall = () => {
   return (
@@ -157,18 +159,27 @@ const StrategyCall = () => {
             <div className="flex flex-col gap-6 p-3 rounded-xl">
               {/* ✅ RIGHT PANEL CALENDAR */}
               <div className="text-(--text-primary) rounded-2xl overflow-hidden">
-                <iframe
-                  src="https://calendar.google.com/calendar/embed?src=waleedahmad4109%40gmail.com&ctz=UTC"
-                  width="100%"
-                  height="600"
-                  frameBorder="0"
-                  scrolling="no"
-                ></iframe>
+                <div className="calendar-wrapper">
+                  <h3 className="calendar-title">Select a Date & Time</h3>
+
+                  <Calendar
+                    className="calendly-style"
+                    prev2Label={null}
+                    next2Label={null}
+                  />
+
+                  
+
+                  <div className="timezone flex items-center gap-2">
+                    <CiGlobe size={16}/>
+                    <div>
+                      <span> Time zone</span>
+                      <p>India Standard Time (IST) - 10:30 pm</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <Button
-                className="w-full lg:w-fit lg:self-end text-sm font-semibold"
-                
-              >
+              <Button className="w-full lg:w-fit lg:self-end text-sm font-semibold">
                 Schedule a Call →
               </Button>
             </div>

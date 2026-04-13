@@ -1,2 +1,130 @@
 @import "tailwindcss";
-@import "./styles/tokens.css"
+@import "./styles/tokens.css";
+
+
+.calendar-wrapper {
+  background: #0b1220;
+  padding: 24px;
+  border-radius: 16px;
+  width: 100%;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.calendar-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Main Calendar */
+.calendly-style.react-calendar {
+  background: transparent;
+  border: none;
+  width: 100%;
+}
+
+/* Navigation (Month + arrows) */
+.calendly-style .react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.calendly-style .react-calendar__navigation button {
+  background: #111827;
+  color: #fff;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.calendly-style .react-calendar__navigation button:hover {
+  background: #1f2937;
+}
+
+/* Weekdays */
+.calendly-style .react-calendar__month-view__weekdays {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.calendly-style .react-calendar__month-view__weekdays__weekday {
+  text-align: center;
+}
+
+/* Day tiles */
+.calendly-style .react-calendar__tile {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  margin: 4px;
+  padding: 12px 0;
+  color: #e5e7eb;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.calendly-style .react-calendar__tile:enabled:hover {
+  background: #1d4ed8;
+  color: white;
+  border-color: #1d4ed8;
+}
+
+/* Selected date */
+.calendly-style .react-calendar__tile--active {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+/* Today */
+.calendly-style .react-calendar__tile--now {
+  background: #1e3a8a;
+  color: #fff;
+}
+
+/* Disabled days (like previous/next month faded) */
+.calendly-style .react-calendar__month-view__days__day--neighboringMonth {
+  color: #334155;
+  background: transparent;
+  border: none;
+}
+
+/* Remove default spacing issues */
+.calendly-style .react-calendar__month-view__days {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Timezone box */
+.timezone {
+  margin-top: 16px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 13px;
+  color: #cbd5f5;
+}
+
+.timezone span {
+  display: block;
+  font-size: 12px;
+  color: #64748b;
+  margin-bottom: 4px;
+}
+
+.react-calendar__tile {
+  max-width: 48px;
+}
+
+.react-calendar__tile abbr {
+  text-decoration: none;
+}
